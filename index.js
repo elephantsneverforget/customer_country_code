@@ -8,7 +8,7 @@ event you want merge data with.
 
 For ex. 
 ElevarGtmSuite.utils.pushToDataLayer({... // Our push
-window.ElevarGtmSuite.handlers.checkoutComplete({ // Event you want to effect
+window.ElevarGtmSuite.handlers._event_({ // Event you want to effect
 
 Depending on context you may want to use the following script presence check
 window.addEventListener('load', () => {
